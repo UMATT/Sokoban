@@ -70,7 +70,7 @@ def representer(zone):
 def clavier(event):
     global fenetre
     global reponse
-    print(event.char)
+    reponse = event.keysym
     fenetre.destroy()
 
 
